@@ -11,3 +11,9 @@ Create virtual environment and install dependencies from requirements.txt
 ```
 nbsite build --what=html --output=builtdocs --org holoviz --project-name holoviews
 ```
+
+After first build, it is possible reproduce the problem also with
+
+```
+sphinx-build -b html doc/ builtdocs/ -a
+```
