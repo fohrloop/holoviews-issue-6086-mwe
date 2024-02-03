@@ -1,0 +1,4 @@
+myst-nb==0.17.2
+nbsite==0.8.4
+matplotlib
+holoviews
